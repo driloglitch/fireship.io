@@ -51,7 +51,7 @@ export async function signInWithApple() {
   return loginHandler(credential);
 }
 
-// TODO update url in production
+// TODO Update url in production
 export async function sendPasswordlessEmail(email: string, url?: string) {
   const actionCodeSettings = {
     // url: 'https://fireship.io/dashboard',
